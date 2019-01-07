@@ -1,6 +1,6 @@
 {
 	"name": "@syncthetic/electron-auto-updater",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Easily manage electron updates using ElectronAutoUpdateAPI and ElectronAutoUpdateClient",
 	"dependencies": {
 		"request": "^2.88.0",

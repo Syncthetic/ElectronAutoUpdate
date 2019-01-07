@@ -6,11 +6,8 @@ module.exports = class UpdateService {
     request(api, { json: true }).then(
       (res) => {
         if ( res && res.version ) {
-          const bool = res.version === current_version
-          if ( callback ) { callback(bool) }
-        } else {
-          // version not available
-          if (callback) { callback(false) }
+          const app_up_to_date = res.version === current_version
+          if ( !app_up_to_date) { callback(res) }
         }
       }
     ).catch((err) => {
