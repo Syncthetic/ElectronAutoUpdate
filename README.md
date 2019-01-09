@@ -1,6 +1,13 @@
 # ElectronAutoUpdate
-> Easily manage electron updates using [ElectronAutoUpdateAPI](https://github.com/Syncthetic/ElectronAutoUpdateAPI) and [ElectronAutoUpdateClient](https://github.com/Syncthetic/ElectronAutoUpdateClient)
+> Use this NPM module inside your Electron application, requesting information from an [ElectronAutoUpdateAPI](https://github.com/Syncthetic/ElectronAutoUpdateAPI) to fetch application version information, download links, or more.
 
+ This repository was created along side the following repositories to streamline Electron application updates.
+ 
+ >  [ElectronAutoUpdateAPI](https://github.com/Syncthetic/ElectronAutoUpdateAPI) - Quick start a MongoDB REST API for your applications. This API can be used to trigger automatic updates and more
+
+> [ElectronAutoUpdateClient](https://github.com/Syncthetic/ElectronAutoUpdateCLient) - If you use MongoDB Stitch for your application, you can simply login with this application to manage all of your applications. i.e, change version information which causes applications using ElectronAutoUpdate to fire events if it's outdated.
+
+# Getting Started
 `npm i --save @syncthetic/electron-auto-updater`
 
 In your your main file, when the application starts, import the service
@@ -19,7 +26,7 @@ service.check_app_version("http://my-little-website/api/application/my-app-name"
 )
 ```
 
-# Angular-Electron
+# Getting Started with Angular-Electron
 > If you use are using angular-electron for your application the following steps will get you squared away
 
 install the package`npm i --save @syncthetic/electron-auto-updater`
