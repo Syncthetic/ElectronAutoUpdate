@@ -1,7 +1,18 @@
 {
 	"name": "@syncthetic/electron-auto-updater",
-	"version": "0.0.3",
 	"description": "Easily manage electron updates using ElectronAutoUpdateAPI and ElectronAutoUpdateClient",
+	"version": "0.0.3",
+	"homepage": "https://github.com/Syncthetic/ElectronAutoUpdate",
+	"bugs": "https://github.com/Syncthetic/ElectronAutoUpdate/issues",
+	"author": {
+		"name": "Justin Bess",
+		"email": "code@justinbess.com",
+		"url": "https://justinbess.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Syncthetic/ElectronAutoUpdate"
+	},
 	"dependencies": {
 		"request": "^2.88.0",
 		"request-promise": "^4.2.2"
