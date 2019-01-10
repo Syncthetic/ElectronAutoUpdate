@@ -1,7 +1,7 @@
 {
 	"name": "@syncthetic/electron-auto-updater",
 	"description": "Easily manage electron updates using ElectronAutoUpdateAPI and ElectronAutoUpdateClient",
-	"version": "0.0.3",
+	"version": "1.0.4",
 	"homepage": "https://github.com/Syncthetic/ElectronAutoUpdate",
 	"bugs": "https://github.com/Syncthetic/ElectronAutoUpdate/issues",
 	"author": {
